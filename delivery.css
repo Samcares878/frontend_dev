@@ -1,0 +1,183 @@
+body{
+    background-color: #61122f;
+    color: white;
+    margin: 0px;
+}
+.top{
+    background-color: #f6b319;
+    display: flex;
+}
+.top img{
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-bottom: 12px;
+    padding-right: 10%;
+}
+.top h1{
+    margin-top: 50px;
+    font-size:40px;
+    font-weight: bolder;
+    color: #557c3e;
+
+}
+.top a{
+    text-decoration: none;
+}
+.top ul{
+    text-decoration: none;
+    display: flex;
+    margin: 0px;
+    margin-left: 15%;
+    margin-top: 40px;
+    padding: 0px;
+    list-style-type: none;
+    font-weight: bold;
+}
+.top ul li{
+    color: #61122f;
+    float: right;
+    padding: 14px 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.top ul li a{
+    color: #61122f;
+}
+.top ul li a:hover{
+       border: 1px solid #557c3e;
+       background-color: #557c3e;
+       padding: 10px;
+       border-radius: 5px;
+       cursor: pointer;
+}
+
+.sigg{
+    background-color: #557c3e;
+    border: 1px solid #557c3e;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    height: 15px;
+    color: #ffffff;
+    border-radius:5px;
+}
+.dtop{
+    display: flex;
+}
+.cord{
+    border: 0px;
+    width: 35vw;
+    margin-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+.cord span{
+    color:#557c3e;
+}
+.para{
+    font-weight: normal;
+    font-size: 20px;
+}
+.pick{
+    display: flex;
+}
+.pos h1{
+    margin-top: 10vh;
+ margin-left: 19vw;
+ text-decoration: underline;
+ display: block;
+}
+ .food{
+    box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.2);
+    display: block;
+    max-width: 20vw;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 3vh;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.foof:hover{
+    box-shadow: 5px 5px 9px 5px rgba(0, 0, 0, 1.0);
+}
+.dtop .food img{
+    width: 20vw;
+    border-radius: 10px;
+   
+}
+.food span{
+color: red;
+}
+.food button{
+    border: none;
+    width: 100%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: #f6b319;
+    border-radius: 10px;
+    color: white;
+}
+.wel {
+ text-align: center;
+}
+.wel h1{
+    text-decoration: underline;
+}
+.locals{
+    display: flex;
+}
+.food img{
+    width:18.5vw;
+    height: 30vh;
+}
+.riv{
+    display: block;
+    margin-top: 50px;
+}
+.foods{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    display: block;
+    max-width: 18vw;
+}
+.food:hover{
+    box-shadow: 8px 10px 10px 8px rgba(0, 0, 0, 0.2);
+}
+.foods:hover{
+    box-shadow: 8px 10px 10px 8px rgba(0, 0, 0, 0.2);
+}
+.foods img{
+    width: 18.5vw;
+    height: 30vh;
+}
+.weldone{
+    display: flex;
+    margin-top: 20px;
+}
+.foods{
+    padding: 10px;
+}
+.weldone button{
+    width: 100%;
+    background-color: #f6b319;
+    border-radius: 10px;
+    border: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+.pepe{
+    text-align: center;
+    border: 0px;
+    box-sizing: 100vw;
+    margin-top: 20px;
+}
+.pepe h2{
+    margin-right: 80px;
+}
+.weldone{
+    text-align: center;
+}
