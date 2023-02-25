@@ -181,3 +181,30 @@ color: red;
 .weldone{
     text-align: center;
 }
+.footer{
+    background-color: #292826;
+    margin-bottom: 0px;
+    display: flex;
+    color: white;
+    font-size: 18px;
+    padding: 30px;
+    margin-top: 8%;
+    }
+    .address{
+        border: 1px solid #292826;
+        float:left;
+        width: 10%;
+        margin-bottom: 0px;
+        margin-right: 10%;
+    }
+    .contact{
+        border: 1px solid #292826;
+        margin-left: 0%;
+        margin-bottom: 0px;
+        width: 10%;
+    }
+    .socialmedia{
+        border: 1px solid #292826;
+        float: right;
+        margin-left: 10%;
+    }

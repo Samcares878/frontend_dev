@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <title>signup</title>
+</head>
+<body>
+    <div class="all">
+        <div class="signup">
+            <div class="form">
+                <h3>ACCOUNT</h3>
+            </div>
+        </div>
+        <div class="bodyform">
+            <form>
+                <input type="text" id="First Name" name="First Name">
+               <br> <label for="First Name"><b>Full Name</b></label>
+                <input type="email" id="Email" name="Email">
+                <label for="Email"><b>Email</b></label>
+                <input type="number" id="phone" name="phone" maxlength="11">
+                <label for="phone"><b>Phone Number</b></label>
+                <input type="password" id="password" name="password">
+                <label for="password"><b>Password</b></label>
+                <div class="dob">
+                    <div class="date">
+                        <label for="date of birth"><b><span>Date of Birth</span></b></label><br/>
+                        <br/>
+                        <input type="date" id="date of birth" name="date of birth">
+                    </div>
+                    <div class="gender">
+                        <label for gender><span><b>Gender</b></span></label><br>
+                        <br/>
+                        <input type="radio" id="Male" name="gender" value="Male">
+                        <label for="Male"><b>Male</b>
+                            <input type="radio" id="Female" name="gender" value="Female">
+                            <label for="Female"><b>Female</b></label>
+                    </div>
+                </div>
+                <h3><span>Payment Details</span></h3>
+                <div class="button1">
+                    <div class="buttoon">
+                       <button>Credit card</button>
+                    </div>
+                    <div class="buttoon">
+                       <button class="but">Paypal</button>
+                    </div>
+                </div>
+                <input type="number" id="cardnumber" name="cardnumber" placeholder="Card Number">
+                <div class="cvv">
+                    <div class="cvvs">
+                        <input type="text" id="cvv" name="cvv" placeholder="CVV">
+                    </div>
+                    <div class="exp">
+                        <label for="exo date">Expiry Date</label><br/>
+                         <input type="date" id="exp date" name="exp date">
+                    </div>
+                </div>
+                <p><span><b>TERMS AND CONDITIONS</b></span></p>
+                <div class="term">
+                    <P><input type="checkbox" id="terms" name="terms"><div class="terms">I accept the terms and conditions for signing up to this service, 
+                    and thereby confirmed that I have read the privacy policy</div></P>
+                </div>
+                <div class="buttons">
+                    <button onclick="index.html">Register</button>
+                    <form action="https://www.w3docs.com/" method="get" target="_blank">
+                       <span><button onclick="login.html">Login</button></span>
+                    </form>
+                </div>
+                </form>
+        </div>
+    </div>
+</body>
+</html>
